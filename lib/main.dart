@@ -100,10 +100,9 @@ class _HomePageState extends State<HomePage> {
                 ),
               )
             else
-              const Text('No Location Data', 
-              style: TextStyle(
-                fontSize: 20
-                ),
+              const Text(
+                'No Location Data',
+                style: TextStyle(fontSize: 20),
               )
           ],
         ),
