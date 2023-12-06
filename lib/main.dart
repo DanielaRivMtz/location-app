@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Location Demo',
+      title: 'App de Localización',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(useMaterial3: true),
       home: const HomePage(),
@@ -101,7 +101,7 @@ class _HomePageState extends State<HomePage> {
               )
             else
               const Text(
-                'No Location Data',
+                'Sin datos de ubicación',
                 style: TextStyle(fontSize: 20),
               )
           ],
