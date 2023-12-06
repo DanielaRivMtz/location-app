@@ -1,6 +1,6 @@
 # location_app
 
-A new Flutter project.
+Proyecto de desarrollo de una aplicacion de geolocalizacion con latitud y longitud usando Flutter.
 
 ## Getting Started
 
